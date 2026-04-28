@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | Male Vitality Hub</title>
+    <link rel="stylesheet" href="{{ "/style.css" | relative_url }}">
+</head>
+<body>
+
+<header>
+    <h1>The 2026 Men's Health & Vitality Hub</h1>
+    <p>Science-Backed Recovery & Performance Strategies</p>
+</header>
+
+<nav>
+    <a href="{{ "/" | relative_url }}">Home</a>
+    <a href="{{ "/about" | relative_url }}">About Us</a>
+    <a href="{{ "/contact" | relative_url }}">Contact</a>
+</nav>
+
+<div class="container">
+    <main class="main-content">
+        <h1>{{ page.title }}</h1>
+        
+        <div class="cta-box">
+            <strong>What you will learn:</strong> {{ page.description }}
+        </div>
+
+        <div class="toc">
+            <h3>Key Sections</h3>
+            </div>
+
+        <article id="article-content">
+            {{ content }}
+        </article>
+    </main>
+
+    <aside class="sidebar">
+        <div class="sidebar-card">
+            <h3>Series: 90-Day Reboot</h3>
+            <ul>
+                {% for post in site.posts %}
+                <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </aside>
+</div>
+
+<footer>
+    <p>&copy; 2026 Male Vitality Hub.</p>
+</footer>
+</body>
+</html>
