@@ -1,0 +1,12 @@
+title: Male Vitality Hub 2026
+description: Professional Male Health & Recovery Guides
+baseurl: "" 
+url: "https://eweiewei.github.io"
+
+# 这里的配置让你的排版更专业
+markdown: kramdown
+permalink: /:title/
+highlighter: rouge
+
+# 自动生成目录和链接
+include: [assets]
