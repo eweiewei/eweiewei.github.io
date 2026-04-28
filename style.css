@@ -1,0 +1,13 @@
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.8; color: #333; margin: 0; padding: 0; background-color: #f4f7f6; }
+header { background-color: #1a2b3c; color: white; padding: 40px 20px; text-align: center; }
+nav { background: #2d5a27; padding: 10px; text-align: center; sticky; top: 0; }
+nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+.container { display: flex; max-width: 1200px; margin: 30px auto; gap: 30px; padding: 0 20px; }
+.main-content { flex: 7; background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+.sidebar { flex: 3; }
+.sidebar-card { background: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+.toc { background: #f9f9f9; border-left: 5px solid #2d5a27; padding: 20px; margin-bottom: 30px; }
+h1, h2, h3 { color: #1a2b3c; }
+h2 { border-bottom: 2px solid #eee; padding-bottom: 10px; margin-top: 40px; }
+.cta-box { background: #e8f4e5; border: 1px solid #2d5a27; padding: 20px; border-radius: 5px; margin: 20px 0; }
+footer { text-align: center; padding: 40px; color: #777; font-size: 14px; }
